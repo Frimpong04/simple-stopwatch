@@ -1,0 +1,31 @@
+
+body {
+    background: teal;
+}
+
+.clock {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 6rem;
+}
+.watch {
+    width: 60%;
+    margin: 50% auto;
+    color: white;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+}
+
+.start,
+.stop,
+.reset {
+    font-size: 1.5rem;
+    padding: 0.4em;
+    margin: 0.2em;
+    border: none;
+    border-radius: 4px;
+}
+.start:hover,.start:focus,
+.stop:hover,.stop:focus,
+.reset:hover,.reset:focus {
+    opacity: 0.6;
+}
